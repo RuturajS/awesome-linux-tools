@@ -1,0 +1,9 @@
+steps:
+  - name: "Check System Uptime"
+    run: "uptime"
+  - name: "List Files"
+    run: "ls -la"
+  - name: "Show Date"
+    run: "date"
+  - name: "Echo Hello"
+    run: "echo Hello World"
